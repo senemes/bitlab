@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 0px;
+    padding: 0;
+}
+img{
+    object-fit: cover;
+}
+.header{
+    background-color:  #4C75A3;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    display: flex;
+}
+.logo{
+    color: white;
+    padding-top: 13px;
+    font-size: 27px;
+    font-weight: 1000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 150px;
+}
+.search{
+    margin-top: 13px;
+    margin-left: 150px;
+    background-color:#355171;
+    border-radius: 20px;
+    height: 33px;
+    width: 170px;
+    padding-left: 15px;
+}
+.search1{
+    background-color:#355171;
+    width: 130px;
+    height: 31px;
+    color:#eceff1;
+    border: none;
+}
+ 
+.search1:focus{
+    outline: none;
+}
+
+.main{
+    margin-top:30px;
+    display: flex;
+    margin-left: 150px;
+    color:#365374;
+}
+
+.menu{
+     margin-top: 10px;
+     color:rgb(69, 87, 147);
+}
+
+.friends{
+    background-color: rgb(255, 255, 255);
+    height: 890px;
+    width: 55%;
+    margin-left: 60px;
+}
+.allfriends{
+    display: flex;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.allfriends p{
+    margin-left: 25px;
+}
+.searchfriends{
+    background-color: #365374;
+    border: none;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    margin-top: 10px;
+    color:white;
+    margin-left: 330px;
+}
+
+.searchdruga{
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    padding-bottom: 15px;
+}
+.searchinput{
+    border: none;
+    width:300px;
+    margin-left: 20px;
+}
+
+.searchinput:focus{
+    outline: none;
+}
+
+.infofriend{
+    display: flex;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.infofriend img{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.infofriend h4,h5,a{
+    padding: 0px;
+    margin: 5px;
+}
+
+
+.f_right{
+    margin-left: 14px;
+    width:18%;
+}
+
+.f_rec{
+     padding-top: 4px;
+      background-color: white;
+      margin-bottom: 30px;
+      height: 220px;
+      padding-left: 20px;
+}
+.f_recinside{
+    height: 27px;
+    margin: 0px;
+    width: 100%;
+    padding-top: 9px;
+}
+.f_recinside p{
+    margin: 0px 0px 0px 15px;
+}
+.select{
+    margin-left: 11px;
+    margin-top: 7px;
+    border: none;
+    color:#365374;
+}
+.select:focus{
+     outline: none;
+}
+
+.f_rec option{
+    color:#365374;
+}
+
+.f_rec_in:hover{
+    background-color: rgb(218, 218, 255);
+}
+
+.probablyfriends{
+    background-color: white;
+    color:#365374;
+
+}
+
+
+.inf{
+    display: flex;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.inf img{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.inf-inside-div{
+    padding-top: 2px; 
+    font-size: 14px;
+}
+.inf-text-name{
+    color:rgb(71, 71, 176); 
+    margin-bottom: 1px;   
+}
+
+.inf-text-num{
+    color: grey; 
+    margin-bottom: 5px; 
+    margin-top: 5px;
+}
+
+
+
+
