@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="sp.css">
+    <title>Twitter</title>
+</head>
+
+<body>
+<div class="header">
+    <h1 class="logo">TWITTER</h1>
+
+    <div class="ssylki">
+        <a href="#" class="link">Tweets</a>
+        <a href="splogin.html" class="link">Login</a>
+        <a href="sp.html" class="link">Register</a>
+    </div>
+</div>
+
+<h1 class="welcome">Welcome <span id="wlcm-fullname1"></span></h1>
+
+<div class="main">
+    <h2>EMAIL:</h2>
+    <p class="info-text" id="wlcm-email"></p>
+    <h2>PASSWORD:</h2>
+    <p class="info-text" id="wlcm-password"></p>
+    <h2>FULL NAME:</h2>
+    <p class="info-text" id="wlcm-fullname"></p>
+    <h2>COUNTRY:</h2>
+    <p class="info-text" id="wlcm-country"></p>
+    <h2>BIRTHDATE:</h2>
+    <p class="info-text" id="wlcm-birthdate"></p>
+</div>
+</body>
+
+<script src="sp.js">
+
+</script>
+
+<script>
+    let id = localStorage.getItem('id');
+    let array2 = JSON.parse(localStorage.getItem("polzovateli"));
+    console.log(array2[parseInt(id)].email);
+    document.getElementById('wlcm-fullname1').innerHTML = array2[parseInt(id)].fullname;
+    document.getElementById('wlcm-email').innerHTML = array2[parseInt(id)].email;
+    document.getElementById('wlcm-password').innerHTML = array2[parseInt(id)].password;
+    document.getElementById('wlcm-fullname').innerHTML = array2[parseInt(id)].fullname;
+    document.getElementById('wlcm-country').innerHTML = array2[parseInt(id)].country;
+    document.getElementById('wlcm-birthdate').innerHTML = array2[parseInt(id)].birthdate;
+</script>
+
+</html>
